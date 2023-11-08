@@ -4,9 +4,9 @@ Refer to the kernel reduceUnrolling8 and implement the kernel reduceUnrolling16,
 ## Aim:
 To implement the kernel reduceUnrolling16 and comapare the performance of kernal reduceUnrolling16 with kernal reduceUnrolling8 using proper metrics and events with nvprof.
 ## Procedure:
-1.Initialize an input array of size 1024.
-2.Launch the reduceUnrolling8 kernel, which performs reduction using 8 data blocks per thread.
-3.Launch the reduceUnrolling16 kernel, which performs reduction using 16 data blocks per thread.
+1.Initialize an input array of size 1024.<br>
+2.Launch the reduceUnrolling8 kernel, which performs reduction using 8 data blocks per thread.<br>
+3.Launch the reduceUnrolling16 kernel, which performs reduction using 16 data blocks per thread.<br>
 4.Compare the results obtained from both kernels.
 ## program:
 %%cu
